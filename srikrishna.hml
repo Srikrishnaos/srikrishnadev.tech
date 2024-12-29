@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sri Krishna Dev - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section">
+        <h1>Sri Krishna Dev</h1>
+        <p>Finance student and aspiring full-stack developer</p>
+        <a href="#contact" class="btn">Get in Touch</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>Finance student and aspiring full-stack developer with a passion for creating web-based tools and platforms...</p>
+        <div class="skills">
+            <h3>Technical Skills</h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Node.js</li>
+                <li>Express.js</li>
+                <li>MongoDB</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>OneStopDev Website</h3>
+            <p>Created a web platform providing tools for web developers...</p>
+        </div>
+        <div class="project">
+            <h3>CSS Image Filter Tool</h3>
+            <p>Designed a responsive tool to apply real-time CSS filters on images...</p>
+        </div>
+        <div class="project">
+            <h3>Gradient Generator Tool</h3>
+            <p>Built a tool to generate CSS gradients with draggable center points and a color picker...</p>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <h2>Experience</h2>
+        <div class="experience">
+            <h3>Techwagon Website Development</h3>
+            <p>Created a professional website using Odoo...</p>
+        </div>
+        <div class="experience">
+            <h3>Freelance Web Developer</h3>
+            <p>Designed responsive websites for personal and professional use...</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <form action="mailto:srik27600@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit" class="btn">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Sri Krishna Dev</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
